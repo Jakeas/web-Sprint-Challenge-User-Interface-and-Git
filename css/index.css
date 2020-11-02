@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +48,13 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid gray; */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    /* border: 1px solid gray; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +72,47 @@ p {
     margin: 0 auto;
 }
 
+/* header */
+header{
+    display: flex;
+
+}
+
+/* header img{
+width: 50px;
+} */
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 18px;
+    width: 100%;
+    
+    padding-top: 6%;
+    padding-bottom: 0%;
+    /* margin-top: 4%; */
+}
+
+nav, a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* top section */
+
+.banner {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+
+
+/* text-container h2 {
+    margin-top: 4%;
+} */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +126,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* middle section */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +148,57 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* boxes */
+
+.box1{
+background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background:coral ;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background:indigo ;
+}
+
+.box10{
+    background: dodgerblue;
+}
+
+/* bottom section */
 
 .bottom-content {
     display: flex;
@@ -125,6 +213,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer */
 
 footer {
     width: 100%;
@@ -144,3 +234,122 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+body{
+    height: fit-content;
+}
+
+header{
+    display: flex;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 18px;
+    width: 100%;
+    
+    padding-top: 6%;
+    padding-bottom: 0%;
+}
+
+nav, a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about-page{
+    height: fit-content;
+    width: 80%;
+    
+}
+
+.about{
+    width:100%;
+}
+
+h3 {
+    width:100%;
+}
+
+.pA{
+    width:100%;
+    padding-bottom: 6%;
+}
+
+ .strategy{
+    display: flex;
+
+}
+
+.cards{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width:100%;
+    margin: 4% 0 4% 0;
+ }
+
+.cards img{
+    max-width: 100%;
+}
+
+.stratSection{
+    max-width: 48%;
+    margin-right: 2%;
+  
+}
+.strat{
+    border-bottom: 2px dotted black;
+    padding: 6%;
+   
+}
+.imgLeft{
+    max-width: fit-content;
+}
+
+.howSection{
+    max-width: 48%;
+}
+
+.how{
+    padding: 6%;
+    border-bottom: 2px dotted black;
+}
+
+.placesSection{
+   max-width:48%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+    
+}
+.places{
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+    padding: 6%;
+}
+.collabSection{
+    max-width: 48%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.collab{
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+    padding: 6%;
+}
+
+
+a.learn{
+    border:3px solid black;
+    border-radius: 6px;
+    padding: 1%;
+    max-width: 50%;
+    
+}
+
+.together{
+    margin-bottom: 3%;
+} 
+

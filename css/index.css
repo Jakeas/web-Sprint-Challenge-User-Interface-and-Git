@@ -70,6 +70,9 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* .about-page{
+    height:1000px;
+} */
 
 .top-content {
     display: flex;
@@ -95,15 +98,25 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.text-container-about {
+    width: 100%%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 .topPic{
     background:url(/img/jumbo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 200px;
-    
+    height: 200px;   
 }
-
+.topPic-about{
+    background:url(/img/jumbo-about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200px;   
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -161,12 +174,87 @@ p {
 .box10{
     background:dodgerblue;
 }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hand{
+    width: 47%;
+    margin:2% 0;
+}
+.computer{
+    width: 47%;
+    margin: 2% 0;
+}
+.office{
+    width: 47%;
+    margin: 2% 0;
+}
+.learn{
+    /* border-bottom: 2px solid red; */
+    padding-bottom: 8%;
+}
+.collab{
+    width:47%;
+    margin: 2% 0;
+    height:50%;
+    padding-bottom: 6%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+}
+.collab a{
+    padding: 3%;
+    margin-top:6%;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color:black; 
+}
+.office{
+    border-bottom: 2px dotted black;
+    margin-bottom: 5%;
+}
+.office a{
+    padding: 3%;
+    margin-top:6%;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color:black; 
+}
+.computer{
+    padding-bottom: 6%;
+    border-bottom: 2px dotted black;
+
+}
+.computer a{
+    padding: 3%;
+    margin-top:6%;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color:black; 
+}
+.hand{
+    border-bottom: 2px dotted black;
+}
+.hand a{
+    padding: 3%;
+    margin-top:6%;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color:black; 
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
+.bottom{
+    margin: 4% 0;
+}
 .bottom-content .text-container {
     padding-right: 4%;
 }
